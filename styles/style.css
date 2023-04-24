@@ -1,0 +1,55 @@
+@import url("/styles/typography.css");
+
+
+.header {
+  background-color: #E5E7EB;
+}
+
+.not-important, .not-completed-important {
+  fill:  #D1D5DB;
+}
+
+.important{
+  fill:#EC4899;
+}
+
+.completed-important {
+  fill: #F9A8D4;
+}
+
+#root {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Inter";
+  font-size: 1.14rem;
+  line-height: 1.5rem;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 16px;
+  font-size: 1rem;
+  line-height: 1rem;
+  border-radius: 8px;
+  border: none;
+};
+
+.primary-button{
+  background-color: #EC4899;
+  color: white;
+}
+
+.secondary-button{
+  background-color: white;
+  color: #EC4899;
+}
+
+.container-md{ 
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center
+};
