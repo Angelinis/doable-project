@@ -1,8 +1,59 @@
+@import url("/styles/reset.css");
 @import url("/styles/typography.css");
 
 
 .header {
+  padding-top: 1rem;
   background-color: #E5E7EB;
+}
+
+.container-button-secondary{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.login-form{
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.header-login{
+  padding-bottom: 1rem;
+}
+
+.filter-form{
+  margin-top: 0.5rem;
+}
+
+.tasks-list{
+  margin-top: 1rem;
+}
+
+.new-chore-form{
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.new-chore-form input{
+  margin-bottom: 0.5rem;
+}
+
+.new-chore-form div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logout-button{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 4px;
+  margin-right: 4px;
 }
 
 .not-important, .not-completed-important {

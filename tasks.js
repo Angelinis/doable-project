@@ -19,12 +19,14 @@ const htmlForm =
 `<form class="new-chore-form">
     <input id="title" name="title" type="text" placeholder="do the dishes ...">
     <input id="due_date" name="due_date" type="date" placeholder="mm/dd/yy">
+    <div>
     <input class="btn" type="submit" value="Add Task"/>
+    </div>
   </form>
 `; 
 
 const htmlFilter =
-`<div>
+`<div class="filter-form">
 <label>Sort</label>
 <select name="sort-list" id="sort-list">
 <option value="Alphabetical (a-z)">Alphabetical (a-z)</option>

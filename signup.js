@@ -30,8 +30,9 @@ const htmlSignPage =
   class="primary-button btn"
   />
   </form>
+  <div class="container-button-secondary">
   <button type="button" class="secondary-button btn">Login</button>
-
+  </div>
 </div>`;
 
 function addFormListen() {

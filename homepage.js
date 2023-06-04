@@ -32,7 +32,9 @@ const htmlLoginPage =
   />
 
   </form>
+  <div class="container-button-secondary">
   <button type="button" class="secondary-button btn">Create account</button>
+  </div>
 </div>`;
 
 
