@@ -45,3 +45,9 @@ My goal is to keep creating more applications to keep practicing. Please let
 me know if you have any feedback.
 
 That said, if you find a bug, please do open an issue!
+
+
+Credits
+-------------
+
+Designed by https://www.codeable.la/
